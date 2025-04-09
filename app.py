@@ -73,3 +73,18 @@ def hello_world_fancy():
 
     """
     return greetings
+
+
+
+@app.route("/testpage")
+def testpage():
+    greetings = """
+    <html>
+    <body>
+
+    <h1>This is a test page</h1>
+
+    </body>
+    </html>
+    """
+    return greetings
